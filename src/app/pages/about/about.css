@@ -1,0 +1,57 @@
+.about {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.about h1 {
+  font-size: 1.8rem;
+  color: #1a3c34;
+  border-left: 4px solid #d4a373;
+  padding-left: 1rem;
+}
+
+.subtitle {
+  color: #777;
+  font-style: italic;
+  margin-bottom: 2.5rem;
+  margin-left: 1.3rem;
+}
+
+.content-block {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.content-block h2 {
+  color: #d4a373;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.8rem;
+}
+
+.member {
+  margin-bottom: 1rem;
+}
+
+.member h3 {
+  margin: 0 0 0.2rem;
+  color: #1a3c34;
+}
+
+.member p {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.tech-list {
+  padding-left: 1.2rem;
+  color: #555;
+}
+
+.tech-list li {
+  margin-bottom: 0.4rem;
+}
