@@ -1,0 +1,16 @@
+<section class="product-detail" *ngIf="product; else notFound">
+  <a routerLink="/">&larr; Retour au catalogue</a>
+  <img [src]="product.image" [alt]="product.name">
+  <h1>{{ product.name }}</h1>
+  <p class="category">{{ product.category }}</p>
+  <p class="price">{{ product.price | currency:'EUR' }}</p>
+  <p class="description">{{ product.description }}</p>
+  <p class="stock" [class.out]="product.stock === 0">
+    {{ product.stock > 0 ? product.stock + ' en stock' : 'Rupture de stock' }}
+  </p>
+</section>
+
+<ng-template #notFound>
+  <p>Produit introuvable.</p>
+  <a routerLink="/">Retour au catalogue</a>
+</ng-template>
