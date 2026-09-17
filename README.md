@@ -1,59 +1,45 @@
-# CatalogueProduitsAngular
+# ShopVue — Catalogue de produits Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.5.
+Site vitrine statique développé avec Angular, dans le cadre du cours de Technologie Web 3 (Licence 1 Informatique). Le site présente un catalogue de produits fictifs répartis par catégories.
 
-## Development server
+## Thème choisi
 
-To start a local development server, run:
+Une boutique fictive en ligne présentant des produits du quotidien (électronique, accessoires, maison), avec catalogue filtrable par catégorie et fiche détaillée par produit.
+
+## Binôme
+
+| Nom | Rôle |
+|---|---|
+| Mouhamadou Lamine BOP | Page d'accueil (catalogue), page de détail produit, modèle et service de gestion des produits |
+| Khadidiatou BOP | Barre de navigation, pied de page, page "À propos", page "Contact" |
+
+## Fonctionnalités
+
+- Page d'accueil : liste des produits générée dynamiquement, avec filtre par catégorie
+- Page de détail : fiche produit complète, accessible via l'URL (ex. `/produits/3`)
+- Page "À propos" : présentation du projet et du binôme
+- Page "Contact" : formulaire utilisant le binding bidirectionnel Angular (`ngModel`)
+- Navigation et pied de page communs à toutes les pages via le routeur Angular
+
+## Technologies utilisées
+
+- Angular (dernière version stable)
+- Composants standalone, data binding, directives structurelles (`*ngFor`, `*ngIf`)
+- Routage Angular (`RouterLink`, `RouterOutlet`)
+- Données statiques (aucune base de données ni API)
+- CSS personnalisé
+
+## Lancer le projet en local
 
 ```bash
+git clone https://github.com/mouhamadoulaminebop0-commits/catalogue-produits-angular.git
+cd catalogue-produits-angular
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Puis ouvrir [http://localhost:4200](http://localhost:4200) dans le navigateur.
 
-## Code scaffolding
+## Déploiement
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+(Lien Firebase Hosting à ajouter ici une fois déployé — bonus)
