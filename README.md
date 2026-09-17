@@ -42,4 +42,4 @@ Puis ouvrir [http://localhost:4200](http://localhost:4200) dans le navigateur.
 
 ## Déploiement
 
-(Lien Firebase Hosting à ajouter ici une fois déployé — bonus)
+🔗 [Voir le site déployé](https://shopvue-catalogue.web.app)
