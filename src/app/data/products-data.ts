@@ -8,7 +8,7 @@ export const PRODUCTS: Product[] = [
     description: 'Casque bluetooth avec réduction de bruit active et 20h d\'autonomie.',
     category: 'Électronique',
     stock: 12,
-    image: 'assets/images/casque.jpg'
+    image: 'images/casque.jpg'
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const PRODUCTS: Product[] = [
     description: 'Clavier mécanique rétroéclairé, switches bleus, format compact.',
     category: 'Électronique',
     stock: 8,
-    image: 'assets/images/clavier.jpg'
+    image: 'images/clavier.jpg'
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ export const PRODUCTS: Product[] = [
     description: 'Sac à dos imperméable avec compartiment ordinateur portable 15 pouces.',
     category: 'Accessoires',
     stock: 20,
-    image: 'assets/images/sac.jpg'
+    image: 'images/sac.jpg'
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ export const PRODUCTS: Product[] = [
     description: 'Garde les boissons froides 24h ou chaudes 12h. Contenance 750ml.',
     category: 'Accessoires',
     stock: 35,
-    image: 'assets/images/gourde.jpg'
+    image: 'images/gourde.jpg'
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ export const PRODUCTS: Product[] = [
     description: 'Lampe articulée avec 3 niveaux de luminosité et port USB intégré.',
     category: 'Maison',
     stock: 0,
-    image: 'assets/images/lampe.jpg'
+    image: 'images/lampe.jpg'
   },
   {
     id: 6,
@@ -53,6 +53,6 @@ export const PRODUCTS: Product[] = [
     description: 'Plante facile d\'entretien, idéale pour purifier l\'air intérieur.',
     category: 'Maison',
     stock: 15,
-    image: 'assets/images/plante.jpg'
+    image: 'images/plante.jpg'
   }
 ];
